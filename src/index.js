@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const li =document.createElement("li");
     li.textContent=input;
     document.querySelector('#tasks').appendChild(li);
+    document.querySelector('form').reset()
 
   })
 });
